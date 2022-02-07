@@ -54,10 +54,10 @@ float mean = 0;
 
 }
 void print_statistics(unsigned char test[]){
-printf(maximum(test));
-printf(minimum(test));
-printf(find_mean(test));
-printf(find_median(test));
+printf("%i is maximum \n",find_maximum(test));
+printf("%i is minimum \n",find_minimum(test));
+printf("%f is mean \n",find_mean(test));
+printf("%f is median \n",find_median(test));
 }
 void print_array(unsigned char test[]){
 
